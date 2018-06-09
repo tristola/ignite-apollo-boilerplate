@@ -12,8 +12,8 @@ import { AsyncStorage } from 'react-native';
 import { persistCache } from 'apollo-cache-persist';
 import Reactotron from 'reactotron-react-native'
 
-const YOUR_GRAPHQL_API_URL= 'https://api.react-finland.fi/graphql-2018'
-// const YOUR_GRAPHQL_API_URL= ''
+// const YOUR_GRAPHQL_API_URL= 'https://api.react-finland.fi/graphql-2018'
+const YOUR_GRAPHQL_API_URL= ''
 const cache = new InMemoryCache()
 persistCache({
   cache,
